@@ -20,6 +20,8 @@ public class CubeCollision : MonoBehaviour
             //내 큐브와 충돌한 큐브가 같은 숫자라면
             if(_cube._cubeNum == otherCube._cubeNum)
             {
+                //큐브의 숫자만큼 점수 증가
+                GameManager.instance.currentScore.Value += _cube._cubeNum;
                 //충돌 지점은 첫번째로 닿은 점 (점과 점의 충돌)
                 Vector3 collidedPoint = collision.contacts[0].point;
 
