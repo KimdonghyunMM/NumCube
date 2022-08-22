@@ -1,9 +1,9 @@
-.gin/*
-.vs/*
-Library/*
-Logs/*
-Temp/*
-obj/*
+.git/
+.vs/
+Library/
+Logs/
+Temp/
+obj/
 *.vsconfig
 *.csproj
 *.sln
